@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./css/naviBar.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script type="text/javascript">
+      $(window).on('scroll', function() {
+        if ($(window).scrollTop()) {
+          $("nav").addClass("black");
+        } else {
+          $("nav").removeClass("black");
+        }
+      });
+      $(document).ready(function(){
+        $('.menu h4').click(function(){
+              $('nav ul').toggleClass('active')
+          })
+      })
+    </script>
+    <title>Sticky-Header-On-Scroll-1</title>
+  </head>
+  <body>
+    <div class="responsive-bar">
+      <div class="logo">
+        <img src="https://picsum.photos/100/100?random=90" />
+      </div>
+      <div class="menu">
+          <h4>Menu</h4>
+      </div>
+    </div>
+    <nav class="black">
+      <div class="logo">
+        <img src="https://picsum.photos/100/100?random=90" />
+      </div>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Servie</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="sec1"></section>
+    <section class="content">
+      <h1>What is Lorem Ipsum?</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+        maiores, et tempore aperiam excepturi facere. Voluptas doloribus commodi
+        eius, recusandae quia nam placeat voluptate distinctio cum! Impedit
+        maiores beatae nulla laborum cupiditate voluptas aliquid dolorum
+        expedita assumenda, quas sit nostrum molestiae repudiandae odit,
+        dignissimos necessitatibus error eaque enim dolores quidem eius
+        reiciendis consequatur! Earum modi illo dolor unde blanditiis cumque,
+        dolorem labore. Dolores minus soluta distinctio voluptatem at aliquid
+        placeat doloribus repudiandae eligendi incidunt? Dolore aperiam
+        quibusdam eligendi a vel libero perspiciatis corporis quidem, quisquam
+        nam voluptatum quo nobis asperiores dolores commodi itaque odio nisi
+        impedit! Quam cupiditate illo deleniti.
+      </p>
+      <p>
+        Deleniti placeat fugit sunt quas totam cupiditate sint dicta maxime
+        rerum voluptas maiores tenetur quisquam alias soluta animi incidunt,
+        possimus similique ipsa sit repudiandae. Placeat eligendi doloremque
+        magni laborum eius quibusdam, esse eos numquam corrupti ad ullam
+        perferendis est consectetur deserunt officia rem quia fugit repellat
+        amet sunt commodi ratione? Pariatur commodi aut debitis accusamus rem
+        quia voluptatem consequuntur, consequatur placeat iure ea aliquid
+        officia saepe reprehenderit! Debitis, veniam autem! Provident at nulla
+        tenetur quaerat in laboriosam rerum et fuga molestias quos distinctio
+        repellat error eum impedit expedita quis vitae blanditiis praesentium
+        ducimus, ratione saepe natus alias. Molestias, provident quos.
+      </p>
+    </section>
+    <section class="sec2"></section>
+    <section class="content">
+      <h1>What is Lorem Ipsum?</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur
+        maiores, et tempore aperiam excepturi facere. Voluptas doloribus commodi
+        eius, recusandae quia nam placeat voluptate distinctio cum! Impedit
+        maiores beatae nulla laborum cupiditate voluptas aliquid dolorum
+        expedita assumenda, quas sit nostrum molestiae repudiandae odit,
+        dignissimos necessitatibus error eaque enim dolores quidem eius
+        reiciendis consequatur! Earum modi illo dolor unde blanditiis cumque,
+        dolorem labore. Dolores minus soluta distinctio voluptatem at aliquid
+        placeat doloribus repudiandae eligendi incidunt? Dolore aperiam
+        quibusdam eligendi a vel libero perspiciatis corporis quidem, quisquam
+        nam voluptatum quo nobis asperiores dolores commodi itaque odio nisi
+        impedit! Quam cupiditate illo deleniti.
+      </p>
+      <p>
+        Deleniti placeat fugit sunt quas totam cupiditate sint dicta maxime
+        rerum voluptas maiores tenetur quisquam alias soluta animi incidunt,
+        possimus similique ipsa sit repudiandae. Placeat eligendi doloremque
+        magni laborum eius quibusdam, esse eos numquam corrupti ad ullam
+        perferendis est consectetur deserunt officia rem quia fugit repellat
+        amet sunt commodi ratione? Pariatur commodi aut debitis accusamus rem
+        quia voluptatem consequuntur, consequatur placeat iure ea aliquid
+        officia saepe reprehenderit! Debitis, veniam autem! Provident at nulla
+        tenetur quaerat in laboriosam rerum et fuga molestias quos distinctio
+        repellat error eum impedit expedita quis vitae blanditiis praesentium
+        ducimus, ratione saepe natus alias. Molestias, provident quos.
+      </p>
+    </section>
+    <section class="sec3"></section>
+  </body>
+</html>
